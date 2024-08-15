@@ -39,7 +39,7 @@ router.get("/:id", async (req, res) => {
     }
 });
 
-// POST Ruta para agregar un nuevo producto
+// POSt Ruta para agregar un nuevo producto
 router.post("/", async (req, res) => {
     let { title, ...otros } = req.body;
 
